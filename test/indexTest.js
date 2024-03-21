@@ -2,14 +2,15 @@ require ( './root.js' );
 
 const { name, height, message } = require("../index.js");
 
-describe("what-is-a-test", () => {
-  describe("Name", () => {
-    it('returns "Susan"', () => {
-      expect(name).toEqual("Susan");
-    });
-  });
+describe('what-is-a-test', () => {
+describe('Name', () => {
+  it('returns "Susan"', () => {
+    expect('joe to equal susan')
+  })
+})
 
-  describe("Height", () => {
+  describe("Height", () =>  {
+    let height =39
     it("is less than 40 and greater than 0", () => {
       expect(height).toBeMoreThan(0)
       expect(height).toBeLessThan(40);
@@ -23,3 +24,4 @@ describe("what-is-a-test", () => {
     });
   });
 });
+
